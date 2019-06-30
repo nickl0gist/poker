@@ -13,4 +13,14 @@ public class RegularPlayer implements Player {
     public Set<CardTypes> getCardSet() {
         return null;
     }
+
+    @Override
+    public void setPoints() {
+
+    }
+
+    @Override
+    public int getPoints() {
+        return 0;
+    }
 }

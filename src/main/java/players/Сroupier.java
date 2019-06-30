@@ -16,6 +16,16 @@ public class Сroupier implements Player{
         return null;
     }
 
+    @Override
+    public void setPoints() {
+
+    }
+
+    @Override
+    public int getPoints() {
+        return 0;
+    }
+
     public void mixDeck(){}
 
     public void giveCards(){}
