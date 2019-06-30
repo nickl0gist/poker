@@ -1,14 +1,14 @@
 package table;
 
+import players.CroupierTexas;
 import players.RegularPlayer;
-import players.Сroupier;
 
 import java.util.Set;
 
 public class Table {
 
     private Set<RegularPlayer> players;
-    private Сroupier croupier;
+    private CroupierTexas croupier;
 
     public Table(Set<RegularPlayer> players) {
         this.players = players;

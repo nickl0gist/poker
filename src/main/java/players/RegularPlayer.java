@@ -4,6 +4,8 @@ import java.util.Set;
 
 public class RegularPlayer implements Player {
 
+    private boolean isDealer;
+
     @Override
     public void setCardSet(CardTypes card) {
 
@@ -22,5 +24,13 @@ public class RegularPlayer implements Player {
     @Override
     public int getPoints() {
         return 0;
+    }
+
+    public boolean isDealer(){
+        return isDealer;
+    }
+
+    public void setDealer(boolean dealer) {
+        isDealer = dealer;
     }
 }
